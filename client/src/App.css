@@ -1,0 +1,26 @@
+.product img{
+    width: 200px;
+}
+.product{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(106, 100, 100);
+    background-color: rgb(175, 198, 218);
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.product button{
+    width: 100px;
+    background-color: rgb(2, 2, 2);
+    color: rgb(253, 248, 248);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.product button:hover{
+    background-color: rgb(24, 23, 23);
+}
