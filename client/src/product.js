@@ -45,7 +45,6 @@ function Product() {
         });
         const jsonRes = await validateRes.json();
         console.log(jsonRes);
-        
     },
     "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information, especially their phone number
         "name": "A Shiva Kumar", //your customer's name
@@ -80,7 +79,7 @@ rzp1.on('payment.failed', function (response){
     <div className="product">
       <h2>T-Shirt</h2>
       <p>This printed T-shirt</p>
-      <img src={TshirtImg}/>
+      <img src={TshirtImg} alt="T-shirt" />
       <br />
 
       <button onClick={paymentHandler}>Pay</button>

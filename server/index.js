@@ -3,6 +3,9 @@ const Razorpay = require("razorpay");
 const crypto = require("crypto");
 const cors = require("cors");
 require("dotenv").config();
+const connectDB = require("./config/db");
+connectDB();
+
 
 
 const app = express();
